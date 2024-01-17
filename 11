@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c,d,i;
+    cin>>a>>b>>c>>d;
+    if(a>c)
+    {
+        i=a;
+    }
+    else
+    {
+        i=c;
+    }
+    while(i>=a&&i>=c&&i<=b&&i<=d)
+    {
+        cout<<i<<" ";
+        i++;
+    }
+    return 0;
+}
